@@ -15,7 +15,7 @@ VARIANT OF TYPES ENCRYPTION/DECRYPTION FOR VARIABLE -> rc5_type:
 """
 rc5_type = 1
 t = 2 * (rounds + 1)
-start_key = b'Beleckaya'
+start_key = b'Programm'
 en_inp_file_name, en_out_file_name = 'text_in (encrypt)', 'text_out (encrypt)'
 de_inp_file_name, de_out_file_name = 'text_out (encrypt)', 'text_out(decrypt)'
 
